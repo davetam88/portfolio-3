@@ -25,7 +25,7 @@ header {
 
 
 /* ---  Navigation --- */
-
+/* ww..1 */
 header nav {
   display: flex;
   flex-direction: row;
@@ -158,6 +158,11 @@ img.image-enhanced {
   flex-direction: column;
 }
 
+header {
+  display: flex;
+  flex-direction: column;
+}
+
 .item {
   flex: 1;
   margin: 10px;
@@ -167,18 +172,6 @@ img.image-enhanced {
   flex: 2;
 }
 
-
-
-/* ---  (Desktop) Groups & Items --- */
-
-@media all and (min-width: 800px) {
-  section {
-    padding: 0 10%;
-  }
-  .group {
-    flex-direction: row;
-  }
-}
 
 
 
@@ -203,8 +196,27 @@ form textarea {
   height: 160px;
 }
 
+/* imp  */
+@media all
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    
+    body {
+      display: inline-block;
+    }   
 
+}
 
+/* ---  (Desktop) Groups & Items --- */
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+  .group {
+    flex-direction: row;
+  }
+}
 
 
 

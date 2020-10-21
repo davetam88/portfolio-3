@@ -1,6 +1,6 @@
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -93,10 +93,9 @@
 						developers to build great software.</p>
 				</div>
 				<div class="item">
-					<img src="images/about/hiking.jpg" alt="hiking"
-						class="image-enhanced">
+					<img src="images/about/hiking.jpg" alt="hiking" class="image-enhanced">
 				</div>
-			</div>				
+			</div>
 		</section>
 
 
@@ -141,12 +140,24 @@
 				<div class="item">
 
 					<form id="my-form" action="https://formspree.io/f/xzbkredg" method="POST">
-						<label>Email:</label>
+						<label for="user-name">Name:</label>
+						<input id="user-name" type="text" name="name">
+
+						<label for="user-email">Email:</label>
+						<input id="user-email" type="text" name="email">
+
+						<label for="user-message">Message:</label>
+						<textarea id="user-message" name="message"></textarea>
+						<button type="submit">Submit</button>
+						
+
+
+						<!-- <label>Email:</label>
 						<input type="email" name="email" />
 						<label>Message:</label>
 						<input type="text" name="message" />
 						<button id="my-form-button">Submit</button>
-						<p id="my-form-status"></p>
+						<p id="my-form-status"></p> -->
 					</form>
 
 				</div>
